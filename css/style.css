@@ -1,0 +1,36 @@
+.header-h{ width: 100%; height: 99px; overflow: hidden;}
+.header{ width: 100%; height: 99px;  background-color: #f9d41b; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 1001; }
+.header-container{ width: 1240px; height: 99px; overflow: hidden; margin: 0 auto;}
+.header-container .header-left{ width: 265px; height: 70px; float: left; margin-top: 24px;}
+.header-container .header-left img{ width: 262px; height: 27px;}
+.header-container .header-left p{ font-size: 16px; color: #000; font-weight: bold; line-height: 24px;}
+.header-container .header-left p i{ font-size: 24px; color: #ff3000;}
+.header-container .header-center{ width: 766px; height: 99px; overflow: hidden; float: left; margin-left: 25px;}
+.header-container .header-center .txt1{ width: 130px; height: 45px; border: 1px #40220f solid; background-color: #FFFFFF; float: left; margin: 28px 10px 0 0; font-size: 18px; color: #333; padding: 0 10px;}
+.header-container .header-center a{ width: 120px; height: 47px; border: none; display: block; float: left; margin: 28px 10px 0 0; text-decoration:underline; font-size: 18px; color: #000000; line-height: 47px; text-align: center;}
+.header-container .header-center .txt2{width: 70px; height: 45px; border: 1px #40220f solid; background-color: #FFFFFF; float: left; margin: 28px 10px 0 0; font-size: 18px; color: #333; padding: 0 10px;}
+.header-container .header-center .sub{ width: 174px; height: 56px; border: none; background-color: #7a1805; float: left; margin: 22px 0 0 0; text-align: center; font-size: 24px; color: #FFFFFF; font-weight: bold; cursor: pointer;}
+.header-container .header-right{ width: 183; overflow: hidden; float: right; margin-top: 24px;}
+.header-container .header-right img{ width: 183px; height: 27px;}
+.header-container .header-right p{ font-size: 16px; color: #000;}
+.header-container .header-right p a{ font-size: 16px; color: #FF3000; text-decoration: underline;}
+.main1{ width: 100%; overflow: hidden;}
+.main1 img{ width: 100%; display: block;}
+.main2{ width: 100%; overflow: hidden; position: relative;}
+.main2 img{ width: 1920px; display: block; position: relative; top: 0; left: 50%; margin-left: -960px;}
+.main2 a.klmnzh{ width: 380px; height: 180px; display: block; overflow: hidden; position: absolute; left: 50%; margin-left: -190px; bottom: 0; cursor: pointer;}
+.main2 a.cjspzh{ width: 380px; height: 180px; display: block; overflow: hidden; position: absolute; left: 50%; margin-left: -190px; bottom: 75px; cursor: pointer;}
+.main2 .down{ width: 980px; height: 175px; overflow: hidden; position: absolute; top: 0; left: 50%; margin-left: -490px;}
+.main2 .down1{ width: 185px; height: 31px; border: 1px #fff solid; position: absolute; top: 125px; left: 24px;}
+.main2 .down2{ width: 185px; height: 31px; border: 1px #fff solid; position: absolute; top: 125px; left: 352px;}
+.main2 .down3{ width: 265px; height: 40px; border: 1px #fff solid; position: absolute; top: 65px; right: 32px;}
+.xz-txt1{ width: 100px; height: 31px; padding: 0 10px; border: none; background: none; font-size: 14px; color: #FFFFFF; font-family: "微软雅黑"; float: left;}
+.xz-btn1{ width: 63px; height: 31px; padding: 0 10px; border: none; background-color: #41220e; float: right; font-size: 14px; color: #FFFFFF; font-family: "微软雅黑";}
+.xz-txt2{ width: 150px; height: 40px; padding: 0 10px; border: none; background: none; font-size: 14px; color: #FFFFFF; font-family: "微软雅黑"; float: left;}
+.xz-btn2{ width: 63px; height: 40px; padding: 0 10px; border: none; background-color: #41220e; float: right; font-size: 14px; color: #FFFFFF; font-family: "微软雅黑";}
+.sus{ width:50px; position:absolute; top:300px;  right:0; z-index:10000001; *top:300px; _top:300px;}
+.sus a.tel{ width:50px; height:53px; display:block; position:relative;}
+.sus a.tel .tel-show{ padding:0 12px; height:52px; overflow:hidden; background-color:#ff0000; position:absolute; top:0; right:-300px; font-size:16px; color:#fff; line-height:52px; border-radius:5px 0 0 5px;}
+.sus img{ width:50px; display:block; margin-bottom:1px;}
+
+

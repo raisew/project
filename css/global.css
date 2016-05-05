@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; outline: none; }
+a { text-decoration: none; -webkit-transition: ease 0.4s; -moz-transition: ease 0.4s; -ms-transition: ease 0.4s; -o-transition: ease 0.4s; transition: ease 0.4s; }
+a:hover { -webkit-transition: ease 0.4s; -moz-transition: ease 0.4s; -ms-transition: ease 0.4s; -o-transition: ease 0.4s; transition: ease 0.4s; }
+img { border: none; }
+ol, ul, li { list-style-type: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+.f-fl { float: left; }
+.f-fr { float: right; }
+article, aside, dialog, footer, header, section, footer, nav, figure, menu { display: block; }
+body { min-width: 1200px; font-family: "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei"; background-color: #f9d41b;  overflow-x:hidden; position: relative;}
+.gradual{animation:gradual 1s;
+-webkit-animation:gradual 1s;
+-moz-animation:gradual 1s;
+-o-animation:gradual 1s;}
+@keyframes gradual{
+0% { opacity:0;}
+90% { opacity:0.9;}
+100% { opacity:1;}
+}
+@-webkit-keyframes gradual{
+0% { opacity:0;}
+90% { opacity:0.9;}
+100% { opacity:1;}
+}
+@-moz-keyframes gradual{
+0% { opacity:0;}
+90% { opacity:0.9;}
+100% { opacity:1;}
+}
+@-o-keyframes gradual{
+0% { opacity:0;}
+90% { opacity:0.9;}
+100% { opacity:1;}
+}
